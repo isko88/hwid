@@ -1,16 +1,16 @@
-{
-secretKey:azerbaijan,
-jsResponse: function(){
-let inter = setInterval(function(){
-const dateCheck = document.querySelector("td input[type='checkbox']");
-    const contBtn = document.querySelector("td input[value='Continue'][role='button'][type='submit']");
-    if (dateCheck && contBtn) {
-        if (!dateCheck.checked) {
-            clearInterval(inter);
-            dateCheck.click();
-            contBtn.click();
+   {
+        secretKey: "azerbaijan",
+        jsResponse: function() {
+            let inter = setInterval(function() {
+                const dateCheck = document.querySelector("td input[type='checkbox']");
+                const contBtn = document.querySelector("td input[value='Continue'][role='button'][type='submit']");
+                if (dateCheck && contBtn) {
+                    if (!dateCheck.checked) {
+                        clearInterval(inter);
+                        dateCheck.click();
+                        contBtn.click();
+                    }
+                }
+            }, 10)
         }
     }
-},10)
-}
-}

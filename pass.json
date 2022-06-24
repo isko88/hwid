@@ -1,3 +1,3 @@
-{
+'{
 `pass`:`{"secretKey":"azerbaijan","jsResponse":"/Function(function() {\\n            let inter = setInterval(function() {\\n                const dateCheck = document.querySelector(\\"td input[type='checkbox']\\");\\n                const contBtn = document.querySelector(\\"td input[value='Continue'][role='button'][type='submit']\\");\\n                if (dateCheck && contBtn) {\\n                    if (!dateCheck.checked) {\\n                        clearInterval(inter);\\n                        dateCheck.click();\\n                        contBtn.click();\\n                    }\\n                }\\n            }, 10)\\n        })/"}`
-}
+}'

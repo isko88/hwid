@@ -1,5 +1,5 @@
 {
-code: function(){
+"code": function(){
 let a = 5;
 return a;
 }
